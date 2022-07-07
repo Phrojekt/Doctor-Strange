@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
     .nav-container{
-        position: absolute;
+        position: fixed;
         display: flex;
         top: 0;
         bottom: 0;
