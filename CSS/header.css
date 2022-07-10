@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
     .nav-container{
-        position: sticky;
+        position: fixed;
         height: 100%;
         display: flex;
         top: 0;
