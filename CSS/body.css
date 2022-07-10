@@ -9,7 +9,7 @@
         background-position: top;
         display: flex;
         flex-direction: column;
-        padding: 50px 18px 29px 18px;
+        padding: 50px 18px 40px 18px;
     }
 }
 
@@ -22,7 +22,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        padding: 91px 40px 23px 40px;
+        padding: 91px 40px 43px 40px;
     }
 }
 
