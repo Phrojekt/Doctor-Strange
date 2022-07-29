@@ -11,11 +11,17 @@ Site hospedado no Github Pages: https://phrojekt.github.io/Doctor-Strange/
 ► Landing-Page
 
 - Logo da Marvel como link para o site da mesma.
-- Navbar que dará acesso a futuras páginas do site.
+- Navbar que dará acesso para as diversas páginas do site.
 - Burger-Menu animado para dispositivos com largura inferior à 768px.
 - Compatibilidade com dispositivos de: 300px, 768px ou 992px de Largura.
 
-► Personagens (Em desenvolvimento.)
+► Personagens.
+
+- Logo da Marvel como link para o site da mesma.
+- Navbar que dará acesso para as diversas páginas do site.
+- Cards descritivos com breves resumos dos personagens. 
+- Burger-Menu animado para dispositivos com largura inferior à 768px.
+- Compatibilidade com dispositivos de: 300px, 768px ou 992px de Largura.
 
 ► Galeria de Imagens (Em desenvolvimento.)
 
