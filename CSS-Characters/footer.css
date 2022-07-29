@@ -1,0 +1,9 @@
+footer {
+    position: relative;
+    top: 82px;
+    background: rgba(12, 11, 11, 0.78);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

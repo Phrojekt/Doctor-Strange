@@ -1,0 +1,42 @@
+@media (min-width: 300px) {
+    body {
+        min-height: 140vh;
+        background: linear-gradient(227.12deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2156) 26.11%, rgba(0, 0, 0, 0.7938) 49.12%), linear-gradient(180deg, #0B0A0A 0%, rgba(244, 8, 8, 0.54) 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-repeat: no-repeat;
+        background-color: rgba(20, 20, 20, 0.333);
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 18px 10px 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background: linear-gradient(232.75deg, #000000 11.89%, rgba(0, 0, 0, 0) 37.4%, rgba(0, 0, 0, 0.92) 59.89%),
+        url(../images/Ipad_Mini/backgroundIpad.svg);
+        background-color: rgba(20, 20, 20, 0.333);
+        background-blend-mode: darken;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        padding: 91px 40px 43px 40px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    body {
+    background: linear-gradient(61.07deg, #000000 8.72%, rgba(0, 0, 0, 0.92) 48.78%, rgba(0, 0, 0, 0) 69.07%),
+    url(../images/background_1.svg);
+    background-color: rgba(20, 20, 20, 0.333);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 128px 15px 128px;
+    }
+}
