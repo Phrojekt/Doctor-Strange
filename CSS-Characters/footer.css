@@ -1,9 +1,10 @@
 footer {
     position: relative;
-    top: 82px;
+    margin-top: 20px;
     background: rgba(12, 11, 11, 0.78);
     height: 50px;
     display: flex;
+    justify-self: end;
     justify-content: space-evenly;
     align-items: center;
 }
