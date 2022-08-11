@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS-gallery/reset.css">
+    <link rel="stylesheet" href="./CSS-gallery/body.css">
+    <link rel="stylesheet" href="./CSS-gallery/burger.css">
+    <link rel="stylesheet" href="./CSS-gallery/header.css">
+    <link rel="stylesheet" href="./CSS-gallery/main.css">
+    <link rel="stylesheet" href="./CSS-gallery/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="./js/burger.js" defer></script>
+
+</head>
+<body>
+
+    <header>
+        <a href="https://www.marvel.com/">
+            <img src="./images/logo-marvel.png" alt="Logo da Marvel">
+        </a>
+        <nav>
+
+            <a href="#" class="Container-burger-menu">
+                <i class="MenuBurger">
+
+                </i>
+            </a>
+
+            <ul class="nav-container">
+               <li>
+                    <a href="./index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./characters.html">PERSONAGENS</a>
+                </li>
+                 <li>
+                     <a href="#">IMAGENS</a>
+                </li>
+                <li>
+                    <a href="#">VÍDEOS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="./images_gallery/Image1.png" alt="" class="SlideImage">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="./images_gallery/Image2.png" alt="" class="SlideImage">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="./images_gallery/Image4.png" alt="" class="SlideImage">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="./images_gallery/Image5.png" alt="" class="SlideImage">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="./images_gallery/Image6.png" alt="" class="SlideImage">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="./images_gallery/Image8.png" alt="" class="SlideImage">
+                    </div>
+                </div>
+            </div>            
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/phrojekt_dev/" target="_blank">
+            <img src="./images/InstagramIcon.png" alt="Instagram_Icon">
+        </a>
+
+        <a href="https://github.com/Phrojekt?tab=repositories" target="_blank">
+            <img src="./images/Github.png" alt="Github_Icon">
+        </a>
+
+        <a href="https://www.linkedin.com/in/paulo-henrique-p-de-sales-0586b9204/" target="_blank">
+            <img src="./images/png-transparent-linkedin-icon-linkedin-text-rectangle-logo.png" alt="Linkedin_Icon">
+        </a>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/gallery.js"></script>
+
+</body>
+</html>
