@@ -23,6 +23,10 @@
         opacity: 0.9;
         z-index: 2;
     }
+
+    .SocialIcons {
+        height: 68px;
+    }
 }
 
 @media (min-width: 767px) {
@@ -34,6 +38,7 @@
     
     .nav-container {
         display: flex;
+        align-items: center;
         gap: 34px;
     }
     
@@ -43,7 +48,11 @@
         transition: all 0.8s;
     }
     
-    .nav-container a:hover {
+    .nav-container a.Text-a:hover {
         background-color: #E62721;
+    }
+
+    .SocialIcons {
+        height: 28px;
     }
 }

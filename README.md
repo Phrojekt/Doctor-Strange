@@ -11,17 +11,11 @@ Site hospedado no Github Pages: https://phrojekt.github.io/Doctor-Strange/
 ► Landing-Page
 
 - Logo da Marvel como link para o site da mesma.
-- Navbar que dará acesso para as diversas páginas do site.
+- Navbar que dará acesso a futuras páginas do site.
 - Burger-Menu animado para dispositivos com largura inferior à 768px.
 - Compatibilidade com dispositivos de: 300px, 768px ou 992px de Largura.
 
-► Personagens.
-
-- Logo da Marvel como link para o site da mesma.
-- Navbar que dará acesso para as diversas páginas do site.
-- Cards descritivos com breves resumos dos personagens. 
-- Burger-Menu animado para dispositivos com largura inferior à 768px.
-- Compatibilidade com dispositivos de: 300px, 768px ou 992px de Largura.
+► Personagens (Em desenvolvimento.)
 
 ► Galeria de Imagens (Em desenvolvimento.)
 
@@ -44,11 +38,3 @@ Se o objetivo inicial era uma página responsiva, eu adquiri o oposto disso e pe
 Para solucionar, reescrevi todo o CSS enquanto o adaptava com os breakpoints utilizados pelo Bootstrap, vindo da menor mídia até a maior.
 
 Foi um projeto importante para entender que o Desenvolvimento é algo constante e que é necessário flexibilidade sobre adaptar os elementos conforme preciso, desde que respeitando o papel que tal elemento deve cumprir, e o mais importante, é que conforme eu for aprendendo e melhorando como um Dev Front-End, eu poderei revisitar o projeto para o refinar e trazer cada vez mais, resultados satisfatórios. 
-
-
-## Futuro do Projeto.
-
-Além de novas páginas, pretendo adicionar acessibilidade ao conteúdo do site inteiro e criar breakpoints menores para conceder maior responsividade.
-
-Também planejo acrescentar animações que tornem a experiência mais interativa e temática.
-
