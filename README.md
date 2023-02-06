@@ -1,40 +1,38 @@
 
-# Doutor Estranho - Landing Page
+# Doctor Strange Landing-Page
 
-Este é um projeto criado por mim como fã com intuito de estudo sobre a criação de uma landing page responsiva e que sirva de entrada para diferentes áreas a serem trabalhadas (Como uma futura galeria de imagens do filme e uma área que descreve um pouco sobre os personagens.)
+Este é um projeto criado por mim como fã, com o objetivo de estudar a criação de uma landing page responsiva. O projeto tem como intuito servir de entrada para futuras áreas a serem trabalhadas, como uma galeria de imagens do filme e uma área de descrição dos personagens.
 
-Site hospedado no Github Pages: https://phrojekt.github.io/Doctor-Strange/ 
-
-
-## Funcionalidades
-
-► Landing-Page
-
-- Logo da Marvel como link para o site da mesma.
-- Navbar que dará acesso a futuras páginas do site.
-- Burger-Menu animado para dispositivos com largura inferior à 768px.
-- Compatibilidade com dispositivos de: 300px, 768px ou 992px de Largura.
-
-► Personagens (Em desenvolvimento.)
-
-► Galeria de Imagens (Em desenvolvimento.)
-
-► Vídeos (Em Desenvolvimento.)
+O site está hospedado no Github Pages: https://phrojekt.github.io/Doctor-Strange/
 
 
 
 
+## Tecnologias
+
+As tecnologias utilizadas foram: HTML, CSS e JavaScript. 
 ## Aprendizados
 
-Iniciei o projeto tendo de aprender a usar o Figma para criar a interface, isto é, criar uma imagem real daquilo que estava planejando. Felizmente, a ferramenta é um tanto intuitiva e tendo uma noção dos padrões geralmente utilizados para este tipo de projeto, não foi difícil montar um "Wireframe".
+Este projeto foi uma oportunidade para aprender sobre diferentes aspectos do desenvolvimento front-end, incluindo:
 
-Neste tempo, eu acabei vendo sobre o SMACSS e resolvi que, inicialmente, poderia dividir o CSS do projeto baseado nas áreas da página. Isto é, um arquivo específico para o padrão dos elementos, um arquivo para header, um para o contéudo e assim por diante. Isto facilitou identificar onde eram necessárias alterações durante o desenvolvimento.
+SMACSS: Aprendi sobre a divisão do CSS do projeto baseado nas áreas da página, facilitando a identificação de onde eram necessárias alterações durante o desenvolvimento.
 
-Aqui, aprendi um pouco sobre pseudo-classes (como o hover pra alterar o background-color dos itens na navbar), sobre display none e também o uso prático de display flex para organizar o conteúdo. Definir uma imagem como background e definir para cobrir toda a área sem repetir, além de aplicar sombreamento com linear-gradient, dar foco a uma área especifica com o background-position e o uso do blend-mode.
+Pseudo-classes: Aprendi sobre o uso de pseudo-classes para alterar o comportamento de elementos em diferentes estados, como o hover, para quando o mouse estiver sobre um elemento..
 
-Usando JavaScript para adicionar a classe "active" de acordo o evento de click, o burguer-menu tomava a funcionalidade que deveria.  
+Display: Aprendi sobre o display none e o uso do display flex para organizar o conteúdo.
 
-Se o objetivo inicial era uma página responsiva, eu adquiri o oposto disso e percebi testando no Responsinator e no Google Mobile Friendly. Foram dias analisando e tentando entender a diferença do resultado do Chrome Dev Tools para as outras ferramentas, até perceber — Graças ao conteúdo do curso de UX que estava fazendo — que havia cometido um erro "bobo": Não havia utilizado o conceito de "Mobile-First".
-Para solucionar, reescrevi todo o CSS enquanto o adaptava com os breakpoints utilizados pelo Bootstrap, vindo da menor mídia até a maior.
+Estilização: Aprendi sobre a definição de uma imagem como background, cobrindo toda a área sem repetição, aplicando sombreamento com linear-gradient, dando foco a uma área específica com o background-position e o uso do blend-mode.
 
-Foi um projeto importante para entender que o Desenvolvimento é algo constante e que é necessário flexibilidade sobre adaptar os elementos conforme preciso, desde que respeitando o papel que tal elemento deve cumprir, e o mais importante, é que conforme eu for aprendendo e melhorando como um Dev Front-End, eu poderei revisitar o projeto para o refinar e trazer cada vez mais, resultados satisfatórios. 
+Mobile First: Aprendi sobre a importância de utilizar o conceito de Mobile First na criação de páginas responsivas.
+
+Ferramentas: Aprendi a utilizar o Figma para desenvolver interfaces e teve a oportunidade de testar suas habilidades com o Responsinator e o Google Mobile Friendly.
+
+Em resumo, este projeto foi uma boa oportunidade para refinar minhas habilidades de desenvolvimento front-end e para compreender a importância da constante evolução e adaptação a novos conhecimentos e ferramentas.
+## Autores
+
+Este projeto é de autoria de Paulo Henrique P. de Sales. 
+Há uma contribuição da API Swiper (https://swiperjs.com/), com licença MIT, para a aba da galeria de imagens. 
+## Licença
+
+Este projeto está licenciado sob a Creative Commons Attribution Non-Commercial (CC BY-NC). Isso significa que você pode compartilhar, modificar e usar o projeto para fins não comerciais, desde que dê crédito ao autor original.
+
